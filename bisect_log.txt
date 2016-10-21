@@ -1,0 +1,9 @@
+git bisect start
+# good: [972d4138f99755c3fd51b6a572e2c04b3e38b0cf] new1 to new5 files added
+git bisect good 972d4138f99755c3fd51b6a572e2c04b3e38b0cf
+# bad: [434f62e31749133c65cb182cedba68d88fb8eab4] updated
+git bisect bad 434f62e31749133c65cb182cedba68d88fb8eab4
+# good: [972d4138f99755c3fd51b6a572e2c04b3e38b0cf] new1 to new5 files added
+git bisect good 972d4138f99755c3fd51b6a572e2c04b3e38b0cf
+# bad: [434f62e31749133c65cb182cedba68d88fb8eab4] updated
+git bisect bad 434f62e31749133c65cb182cedba68d88fb8eab4
